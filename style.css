@@ -6,30 +6,33 @@
     Universal Change 
 ++++++++++++++++++++++++++
 */
-body{
+body {
     font-family: 'Work Sans';
     margin: 0;
 
 }
+
 /* 
 ++++++++++++++++++++
       Top Bar
 ++++++++++++++++++++
 */
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     background: rgba(255, 144, 14, 0.1);
 }
-.header-title{
+
+.header-title {
     margin-top: 50px;
     margin-left: 240px;
     font-weight: 700;
     font-size: 45px;
     color: #131313;
 }
-.nav{
+
+.nav {
     display: flex;
     font-weight: 500;
     font-size: 18px;
@@ -37,7 +40,8 @@ header{
     margin-right: 240px;
     margin-top: 50px;
 }
-.options{
+
+.options {
     margin-right: 80px;
 }
 
@@ -47,23 +51,25 @@ header{
 +++++++++++++++++++++++++++++
 */
 
-.first-sect{
+.first-sect {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color:rgba(255, 144, 14, 0.1);
+    background-color: rgba(255, 144, 14, 0.1);
 }
-.first-sect .title{
+
+.first-sect .title {
     width: 862px;
     font-size: 64px;
     font-weight: 700;
     text-align: center;
     color: #131313;
-    
+
     margin-top: 58px;
     margin-bottom: 15px;
 }
-.first-sect p{
+
+.first-sect p {
     width: 868px;
     height: 52px;
     font-size: 16px;
@@ -73,7 +79,8 @@ header{
     line-height: 26px;
     margin-bottom: 20px;
 }
-.btn{
+
+.btn {
     width: 180px;
     height: 64px;
     font-weight: 600;
@@ -84,7 +91,8 @@ header{
     border: none;
     margin-bottom: 50px;
 }
-.first-sect img{
+
+.first-sect img {
     width: 1440px;
     margin-bottom: 45px;
 }
@@ -95,38 +103,164 @@ header{
 +++++++++++++++++++++++++++++
 */
 
-.second-sect{
+.second-sect {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-top: 85px;
 }
-.second-sect img{
+
+.second-sect img {
     border-radius: 8px;
     margin-left: 24px;
     margin-bottom: 24px;
 }
-.second-sect .description{
+
+.second-sect .description {
     width: 537px;
     height: 384px;
     margin-left: 73px;
     margin-top: 200px;
 }
-.title{
+
+.title {
     font-size: 45px;
 }
-.gray{
+
+.gray {
     color: #727272;
     font-weight: 400;
 }
-.black{
+
+.black {
     color: #131313;
 }
-.orange{
+
+.orange {
     color: #FF900E;
 }
-.second-sect p{
+
+.second-sect p {
     color: #727272;
     font-size: 16px;
     line-height: 26px;
+}
+
+/* 
++++++++++++++++++++++++++++++
+    third section styles 
++++++++++++++++++++++++++++++
+*/
+
+.third-sect .section {
+    display: flex;
+    margin-left: 400px;
+    margin-right: 400px;
+    justify-content: space-between;
+}
+
+.third-sect .description {
+    width: 586px;
+    margin-right: 146px;
+}
+.bar {
+    width: 5px;
+    height: 106px;
+    position: relative;
+    top: 150px;
+    background-color: #FF900E;
+}
+
+.third-sect .description h3 {
+    margin-left: 21px;
+    margin-bottom: 24px;
+    color: #131313;
+    line-height: 53px;
+    font-size: 45px;
+}
+
+.third-sect .description p {
+    margin-bottom: 30px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.third-sect .description ul {
+    list-style: none;
+    padding: 0;
+}
+
+.third-sect .description li {
+    width: 586px;
+    height: 150px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+.third-sect .image{
+    margin-top: 130px;
+}
+.third-sect > .btn{
+    position: relative;
+    left: 1100px;
+    bottom: 170px;
+    width: 342px;
+    height: 200px;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 500;
+}
+.third-sect .btn .big{
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+/* 
++++++++++++++++++++++++++++++
+    Last section styles 
++++++++++++++++++++++++++++++
+*/
+.last-sect .some-texts{
+    width: 542px;
+    height: 52px;
+    margin-left: 400px;
+}
+.last-sect .some-texts h3{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
+.some-texts p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #727272;
+}
+.achievements{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.box{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 240px;
+    height: 240px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.box img{
+    width: 45px;
+}
+.box h1{
+    font-size: 45px;
+    color: #424242;
 }
